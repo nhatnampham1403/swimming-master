@@ -1,0 +1,1 @@
+export const seconds2mmss = seconds => new Date(seconds * 1000).toISOString().substring(14, 19);
